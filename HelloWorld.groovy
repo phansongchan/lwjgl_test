@@ -15,7 +15,7 @@ import static org.lwjgl.system.MemoryUtil.*;
 class HelloWorld 
 {
 	// The window handle
-	private long window;
+	private def window;
 
 	public def run()
 	{
@@ -111,7 +111,7 @@ class HelloWorld
 			glfwPollEvents();
 		}
 	}
-
+	
 	static void main( String[] args ) 
 	{
 		new HelloWorld().run();
