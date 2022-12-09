@@ -19,7 +19,7 @@ class HelloWorld
 
 	public def run()
 	{
-		System.out.println( "VERSION USED: LWJGL " + Version.getVersion() );
+		println( "VERSION USED: LWJGL " + Version.getVersion() );
 
 		init();
 		loop();
